@@ -483,7 +483,7 @@ footer h3 a {
     }
     
     #message {
-        margin: 0px 0px 0px -10px ;
+        margin: 0px 0px 0px 0px ;
         border-radius: 5px;
         width: 300px;
         height: 200px;
@@ -494,7 +494,7 @@ footer h3 a {
     }
     
     #name {
-        margin: 0px 0px 0px -13px;
+        margin: 0px 0px 0px 0px;
         border-radius: 5px;
         width: 300px;
         height: 30px;
@@ -506,7 +506,7 @@ footer h3 a {
     }
     
     #email {
-        margin: 0px 0px 0px -13px;
+        margin: 0px 0px 0px 0px;
         border-radius: 5px;
         width: 300px;
         height: 30px;
