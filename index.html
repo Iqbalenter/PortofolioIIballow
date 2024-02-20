@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
+    <link rel="Website Icon" type="png" href="./asset/IW-website-logo-170405-removebg-preview.png">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <nav data-aos="fade-bottom" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <div class="nav-logo">
+            <a href="#">
+                <img src="asset/IW-website-logo-170405-removebg-preview.png" />
+            </a>
+        </div>
+        
+        <ul class="nav-links" id="myLinks">
+            <li class="link"><a href="#">HOME</a></li>
+            <li class="link"><a href="#portofolio">PORTOFOLIO</a></li>
+            <li class="link"><a href="#contact">CONTACT</a></li>
+        </ul>
+        
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <button class="btn" onclick="redirectTolink()">Hire me</button>
+    </nav>
+
+    <div class="contents">
+        <header class="container">
+            <div class="content" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <h4>Hi, I'm <span>Iqbal</span>, Web Developer</h4>
+
+                <p>I very enthusiast at web develope like create website to</p>
+                <p>
+                    make my own and i can make your website too, I'm very happy to meet
+                    you
+                </p>
+
+                <button class="btn" id="myButton" onclick="redirectTolink()">
+                    Get started
+                </button>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="image">
+                    <img src="asset/web-development-design-concept-vector-20805345-removebg-preview.png"  />
+                </div>
+            </div>
+            
+        </header>
+
+        <br>
+        <br>
+        <br>
+        <section class="container" id="portofolio">
+            <h2 class="header">My feature</h2>
+            <div class="feature" id="feature" >
+                <div class="card"  id="card1" data-aos="fade-up" data-aos-duration="1000">
+                    <h4>Make Website</h4>
+                    <p>
+                        If you want to make your own website and solve your problem to
+                        make website and I'm very enthusiast to help you
+                    </p>
+                </div>
+                <div class="card" id="card2" data-aos="fade-up" data-aos-duration="1500">
+                    <h4>Portofolio Website</h4>
+                    <p>Have any bugs at your website or your program</p>
+                </div>
+                <div class="card" id="card3" data-aos="fade-up" data-aos-duration="2000">
+                    <h4>Design Website</h4>
+                    <p>
+                        If you want to make your own website and solve your problem to
+                        make website and I'm very enthusiast to help you
+                    </p>
+                </div>
+                <div class="card" id="card4" data-aos="fade-up" data-aos-duration="2500">
+                    <h4>Wordpress Website</h4>
+                    <p>
+                        If you want to make your own website and solve your problem to
+                        make website and I'm very enthusiast to help you
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <div class="feedback">
+            <h3>Have Any Input Or Suggestions?</h3>
+            <br>
+            <br>
+            <form action="https://formspree.io/f/xqkrebzg" method="POST">
+                <label for="message" id="message-text">Leave your feedback here!</label><br>
+                <textarea id="message" name="message" placeholder="Enter Your Message" autocomplete="off" required></textarea><br>
+                <label for="name" id="name-text">Enter Your Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" autocomplete="on" required><br>
+                <label for="email" id="email-text">Enter Your Email Here</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" autocomplete="on" required><br>
+                <button>Submit</button>
+            </form>
+            
+        </div>
+        <br />
+        <div class="contact" id="contact">
+            <a href="https://www.instagram.com/iiballow/" target="_blank"><img src="asset/Instagram_New_icon-icons.com_69008.png"
+                    alt="" /></a>
+            <a href="https://www.linkedin.com/in/iqbal-wijaya-2b76a2254/" target="_blank"><img src="asset/sociallinkedin_member_70.png"
+                    alt="" /></a>
+            <a href="https://github.com/Iqbalenter" target="_blank"><img src="asset/github-logo_icon-icons.com_73546.png" alt="" /></a>
+            <a href="wa.me/6281367941174" target="_blank"><img src="asset/whatsapp-logo_icon-icons.com_57054.png" alt="" /></a>
+        </div>
+    </div>
+
+    <footer>
+        <h3>COPYRIGHT 2024 <a href="https://www.instagram.com/iiballow/" target="_blank">@iiballow</a></h3>
+    </footer>
+
+    <script src="app.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
